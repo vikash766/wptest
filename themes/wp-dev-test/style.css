@@ -1,0 +1,80 @@
+/*
+ Theme Name:     Twenty Sixteen Child Theme
+ Theme URI:      http://localhost:3000/frocca/
+ Description:    A bare-bones child theme for use with Twenty Sixteen Theme.
+ Author:         Vikash Kumar
+ Author URI:     http://localhost:3000/frocca/
+ Template:       twentysixteen
+ Version:        1.0.0
+*/
+ 
+/* Add Custom CSS after this line */
+@media screen and (min-width: 56.875em) {
+    .page-template-full-width-page .content-area
+    {
+      float: left;
+      margin-right: -100%;
+      width: 100%;
+    }
+}
+
+.product, .product-cat{
+    border:10px solid #dfdfdf;
+    float:left;
+    margin:0 40px 20px 0;
+    outline:1px solid #bfbfbf;
+    position:relative;
+}
+    .product img, .product-cat img{
+        max-width:100%;
+    }
+    .product-title, .cat-title{
+        background:rgba(0,0,0,.8);
+        color:#FFF;
+        display:block;
+        position:absolute;
+        bottom:0;
+        left:0;
+        padding:10px 0;
+        text-align:center;
+        width:100%;
+    }
+
+#prouct-img{
+    float:left;
+    width:100%;
+}
+#product-desc{
+    float:right;
+    width:50%;
+}
+
+.johnson1 {
+	padding: 20px;
+	background: #ffff99;
+	width: 90%;
+	margin: 20px auto;
+}
+.johnson6 {
+	padding: 20px;
+	background: #ffff99;
+	width: 90%;
+	margin: 20px auto;
+	border: 3px dashed #ee0000;
+}
+.johnson8 {
+	padding: 20px;
+	background: #ccffcc;
+	width: 90%;
+	margin: 20px auto;
+	border-left: 5px solid #ff8080;
+}
+
+/* Other Sample Code */
+
+.warning {
+	color: red;
+}
+.shadow {
+	box-shadow: 0 8px 8px -6px #333;
+}
